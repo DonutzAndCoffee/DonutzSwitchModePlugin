@@ -6,6 +6,7 @@ The current mode can be read as property [DonutzModeSwitcherPlugin.SwitchMode]
 
 ![grafik](https://github.com/user-attachments/assets/7fa2f31a-aa6d-44c9-a015-56387a02077d)
 
-![grafik](https://github.com/user-attachments/assets/21fd23f0-b957-4adf-ba85-7e0e9f30515d)
+![grafik](https://github.com/user-attachments/assets/18f1f40f-bde6-4887-ae36-b475eb855647)
+
 
 <br>Buy me a coffee if you want at [Paypal](https://paypal.me/donutz75?country.x=DE&locale.x=de_DE).
