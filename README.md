@@ -4,6 +4,18 @@ This little Simhub plugin adds an option to transform a simple rotary encoder in
 
 The current mode can be read as property [DonutzModeSwitcherPlugin.SwitchMode]
 
+Available Simhub properties:
+DonutzModeSwitcherPlugin.SwitchMode
+--> current mode name
+DonutzModeSwitcherPlugin.SwitchModeID
+--> current mode ID
+DonutzModeSwitcherPlugin.SwitchAllowedModesString
+--> list of allowed modes including current mode marked (as string)
+DonutzModeSwitcherPlugin.SwitchAllowedModes
+--> list of allowed modes
+DonutzModeSwitcherPlugin.SwitchAllModes
+--> list of all modes
+
 Discord: https://discord.gg/KuSsEYgB3k
 
 ![grafik](https://github.com/user-attachments/assets/7fa2f31a-aa6d-44c9-a015-56387a02077d)
