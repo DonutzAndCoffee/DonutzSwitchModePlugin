@@ -15,6 +15,8 @@ DonutzModeSwitcherPlugin.SwitchAllowedModes<br>
 --> list of allowed modes<br>
 DonutzModeSwitcherPlugin.SwitchAllModes<br>
 --> list of all modes<br><br>
+ --> $prop("DonutzModeSwitcherPlugin.SwitchAllModes")[1].Name = name of Mode 1
+ --> $prop("DonutzModeSwitcherPlugin.SwitchAllModes")[1].Action1 (.Action2, .Action3, ...) = shows the action/role assigned to the mapped button.
 
 Discord: https://discord.gg/KuSsEYgB3k
 
