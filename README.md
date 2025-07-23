@@ -36,8 +36,9 @@ Legacy mode is still there for backwards compatibility.<br>
 <br><br>
 ### DonutzModeSwitcherPlugin.SwitchAllModes<br>
 --> list of all modes<br><br>
----> $prop("DonutzModeSwitcherPlugin.SwitchAllModes")[1].Name = name of Mode 1<br><br>
-<img width="732" height="794" alt="grafik" src="https://github.com/user-attachments/assets/387e756d-2090-45b1-a775-d13f52ea7928" />
+---> $prop("DonutzModeSwitcherPlugin.SwitchAllModes")[1].Name = name of Mode 1<br><br><br>
+<img width="1127" height="761" alt="grafik" src="https://github.com/user-attachments/assets/cc3f71be-b1a2-4bee-a452-6731e4fd09d2" />
+
 
 
 ### Legacy stuff for backwards compatibility:<br>
