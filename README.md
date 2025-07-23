@@ -4,6 +4,7 @@ This little Simhub plugin adds an option to transform a simple rotary encoder in
 
 ## Instructions
 ### 1) Assign keybindings. Up to five independent Mode Switches are possible now. Each of these five mode switches is able to control 12 control mapper roles.
+Legacy mode is still there for backwards compatibility.
 <img width="391" height="429" alt="grafik" src="https://github.com/user-attachments/assets/a03ced6a-1c00-4224-b789-2aed48e1bf88" />
 
 ### 2) Define modes (before of course you need to define roles in Simhub Control mapper)
