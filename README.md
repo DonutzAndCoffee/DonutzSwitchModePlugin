@@ -18,6 +18,7 @@ Instructions
 
 The current mode can be read as property [DonutzModeSwitcherPlugin.SwitchMode]
 
+<b>Legacy stuff for backwards compatibility:</b><br>
 Available Simhub properties:<br>
 DonutzModeSwitcherPlugin.SwitchMode<br>
 --> current mode name<br>
