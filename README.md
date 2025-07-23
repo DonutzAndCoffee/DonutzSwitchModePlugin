@@ -17,7 +17,7 @@ Legacy mode is still there for backwards compatibility.
 
 
 ## Properties
-DonutzModeSwitcherPlugin.Switch*X*AllowedModesString<br>
+DonutzModeSwitcherPlugin.Switch*(X)*AllowedModesString<br>
 --> list of allowed modes including current mode marked (as string)<br><br>
 
 DonutzModeSwitcherPlugin.Switch*X*AllowedModesString<br>
