@@ -27,8 +27,8 @@ DonutzModeSwitcherPlugin.Switch[ID]Mode<br>
 --> current mode name<br><br>
 
 DonutzModeSwitcherPlugin.Switch[ID]ModeCSV[x]<br>
---> DonutzModeSwitcherPlugin.SwitchModeCSV')
----> You can define more than one label in the mode name tag (separated by a colon ';'). This way you can address each sub-name 
+--> DonutzModeSwitcherPlugin.SwitchModeCSV')<br>
+---> You can define more than one label in the mode name tag (separated by a colon ';'). This way you can address each sub-name <br>
 ---> Example: <br>
 <img width="397" height="80" alt="461916571-e01fa751-b163-4b3d-bfda-a320ce24428e" src="https://github.com/user-attachments/assets/878bca38-fcc8-4706-bb13-43524860400a" /><br>
 <img width="610" height="76" alt="grafik" src="https://github.com/user-attachments/assets/a5cf9d05-bbb7-4724-883c-8354eb4abed5" /><br>
