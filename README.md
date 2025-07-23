@@ -26,9 +26,10 @@ DonutzModeSwitcherPlugin.Switch[ID]AllowedModesString<br>
 DonutzModeSwitcherPlugin.Switch[ID]Mode<br>
 --> current mode name<br><br>
 
-DonutzModeSwitcherPlugin.Switch[ID]ModeCSV<br>
---> current mode name<br><br>
-
+DonutzModeSwitcherPlugin.Switch[ID]ModeCSV[x]<br>
+--> DonutzModeSwitcherPlugin.SwitchModeCSV')
+---> You can define more than one label in the mode name tag (separated by a colon ';'). This way you can address each sub-name 
+---> Example: 
 DonutzModeSwitcherPlugin.SwitchAllModes<br>
 --> list of all modes<br><br>
 ---> $prop("DonutzModeSwitcherPlugin.SwitchAllModes")[1].Name = name of Mode 1<br><br>
