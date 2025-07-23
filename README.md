@@ -17,27 +17,24 @@ Legacy mode is still there for backwards compatibility.<br>
 
 
 ## Properties
-DonutzModeSwitcherPlugin.Switch[ID]AllowedModesString<br>
+### DonutzModeSwitcherPlugin.Switch[ID]AllowedModesString<br>
 --> list of allowed modes including current mode marked (as string)<br><br>
 
-DonutzModeSwitcherPlugin.Switch[ID]AllowedModesString<br>
+### DonutzModeSwitcherPlugin.Switch[ID]AllowedModesString<br>
 --> list of allowed modes including current mode marked (as string)<br><br>
 
-DonutzModeSwitcherPlugin.Switch[ID]Mode<br>
+### DonutzModeSwitcherPlugin.Switch[ID]Mode<br>
 --> current mode name<br><br>
 
-DonutzModeSwitcherPlugin.Switch[ID]ModeCSV[x]<br>
+### DonutzModeSwitcherPlugin.Switch[ID]ModeCSV[x]<br>
 --> DonutzModeSwitcherPlugin.SwitchModeCSV')<br>
 ---> You can define more than one label in the mode name tag (separated by a colon ';'). This way you can address each sub-name <br>
 ---> Example: <br>
 <img width="397" height="80" alt="461916571-e01fa751-b163-4b3d-bfda-a320ce24428e" src="https://github.com/user-attachments/assets/878bca38-fcc8-4706-bb13-43524860400a" /><br>
 <img width="610" height="76" alt="grafik" src="https://github.com/user-attachments/assets/a5cf9d05-bbb7-4724-883c-8354eb4abed5" /><br>
 <img width="454" height="196" alt="grafik" src="https://github.com/user-attachments/assets/0fcaee00-b085-4b70-bf31-44eb264d3a2c" /><br>
-
-
-
 <br><br>
-DonutzModeSwitcherPlugin.SwitchAllModes<br>
+### DonutzModeSwitcherPlugin.SwitchAllModes<br>
 --> list of all modes<br><br>
 ---> $prop("DonutzModeSwitcherPlugin.SwitchAllModes")[1].Name = name of Mode 1<br><br>
 <img width="732" height="794" alt="grafik" src="https://github.com/user-attachments/assets/387e756d-2090-45b1-a775-d13f52ea7928" />
