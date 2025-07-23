@@ -21,7 +21,17 @@ DonutzModeSwitcherPlugin.Switch[ID]AllowedModesString<br>
 --> list of allowed modes including current mode marked (as string)<br><br>
 
 DonutzModeSwitcherPlugin.Switch[ID]AllowedModesString<br>
---> list of allowed modes including current mode marked (as string)<br>
+--> list of allowed modes including current mode marked (as string)<br><br>
+
+DonutzModeSwitcherPlugin.Switch[ID]Mode<br>
+--> current mode name<br><br>
+
+DonutzModeSwitcherPlugin.Switch[ID]ModeCSV<br>
+--> current mode name<br><br>
+
+DonutzModeSwitcherPlugin.SwitchAllModes<br>
+--> list of all modes<br><br>
+---> $prop("DonutzModeSwitcherPlugin.SwitchAllModes")[1].Name = name of Mode 1<br><br>
 <img width="732" height="794" alt="grafik" src="https://github.com/user-attachments/assets/387e756d-2090-45b1-a775-d13f52ea7928" />
 
 
