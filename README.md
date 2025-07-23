@@ -2,14 +2,14 @@
 
 This little Simhub plugin adds an option to transform a simple rotary encoder into a mode switch. Based on the selected mode you can use a second rotary encoder to address Simhubs Control Mapper roles. It multiplies your button functionality.
 
-Instructions
-1) Assign keybindings. Up to five independent Mode Switches are possible now. Each of these five mode switches is able to control 12 control mapper roles.
+# Instructions
+## 1) Assign keybindings. Up to five independent Mode Switches are possible now. Each of these five mode switches is able to control 12 control mapper roles.
 <img width="391" height="429" alt="grafik" src="https://github.com/user-attachments/assets/a03ced6a-1c00-4224-b789-2aed48e1bf88" />
 
-2) Define modes (before of course you need to define roles in Simhub Control mapper)
+## 2) Define modes (before of course you need to define roles in Simhub Control mapper)
 <img width="989" height="687" alt="grafik" src="https://github.com/user-attachments/assets/d1cefbf1-be87-4480-8a70-e98ff889b368" />
 
-3) Assign mode settings to mode switches
+## 3) Assign mode settings to mode switches
    e.g. [1,2,4][2,3][5,7] would mean that Mode Switch 1 is assigned to modes 1,2,4, Mode Switch 2 is assigned to modes 2 and 3, Mode Switch 3 is assigned to modes 5 and 7. Up to five [] groups can be defined here.
 <img width="576" height="367" alt="grafik" src="https://github.com/user-attachments/assets/6ba3882d-ae8e-47e4-8d52-3f1b4aa0850f" />
 
@@ -18,7 +18,7 @@ Instructions
 
 The current mode can be read as property [DonutzModeSwitcherPlugin.SwitchMode]
 
-<b>Legacy stuff for backwards compatibility:</b><br>
+## Legacy stuff for backwards compatibility:<br>
 Available Simhub properties:<br>
 DonutzModeSwitcherPlugin.SwitchMode<br>
 --> current mode name<br>
