@@ -14,8 +14,6 @@ Legacy mode is still there for backwards compatibility.<br>
    e.g. [1,2,4][2,3][5,7] would mean that Mode Switch 1 is assigned to modes 1,2,4, Mode Switch 2 is assigned to modes 2 and 3, Mode Switch 3 is assigned to modes 5 and 7. Up to five [] groups can be defined here.
 <img width="576" height="367" alt="grafik" src="https://github.com/user-attachments/assets/6ba3882d-ae8e-47e4-8d52-3f1b4aa0850f" />
 
-
-
 ## Properties
 ### DonutzModeSwitcherPlugin.Switch[ID]AllowedModesString<br>
 --> list of allowed modes including current mode marked (as string)<br><br>
@@ -57,11 +55,11 @@ DonutzModeSwitcherPlugin.SwitchAllModes<br>
 <img width="467" height="497" alt="grafik" src="https://github.com/user-attachments/assets/f6bdae17-413a-4857-86ba-0793e505fb43" /><br>
 
 
-Discord: https://discord.gg/KuSsEYgB3k
+
 
 ![grafik](https://github.com/user-attachments/assets/7fa2f31a-aa6d-44c9-a015-56387a02077d)
 
 ![grafik](https://github.com/user-attachments/assets/18f1f40f-bde6-4887-ae36-b475eb855647)
 
-
+<br>Discord: https://discord.gg/KuSsEYgB3k
 <br>Buy me a coffee if you want at [Paypal](https://paypal.me/donutz75?country.x=DE&locale.x=de_DE).
