@@ -18,8 +18,8 @@ Legacy mode is still there for backwards compatibility.<br>
 ### DonutzModeSwitcherPlugin.Switch[ID]AllowedModesString<br>
 --> list of allowed modes including current mode marked (as string)<br><br>
 
-### DonutzModeSwitcherPlugin.Switch[ID]AllowedModesString<br>
---> list of allowed modes including current mode marked (as string)<br><br>
+### DonutzModeSwitcherPlugin.Switch[ID]ModeID<br>
+--> current mode ID<br><br><br>
 
 ### DonutzModeSwitcherPlugin.Switch[ID]Mode<br>
 --> current mode name<br><br>
