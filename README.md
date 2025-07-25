@@ -3,6 +3,10 @@
 This little Simhub plugin adds an option to transform a simple rotary encoder into a mode switch. Based on the selected mode you can use a second rotary encoder to address Simhubs Control Mapper roles. It multiplies your button functionality.
 
 ## Instructions
+
+Youtube tutorial: https://www.youtube.com/watch?v=dLPLN8p9JPM
+<br>
+
 ### 1) Assign keybindings. Up to five independent Mode Switches are possible now. Each of these five mode switches is able to control 12 control mapper roles.
 Legacy mode is still there for backwards compatibility.<br>
 <img width="391" height="429" alt="grafik" src="https://github.com/user-attachments/assets/a03ced6a-1c00-4224-b789-2aed48e1bf88" />
