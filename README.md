@@ -57,7 +57,7 @@ This is only important if you want to assign the very same buttons to different 
 
 
 
-<br><br><br><br>
+<br><br><br><br><details>
 ### Legacy stuff for backwards compatibility:<br>
 DonutzModeSwitcherPlugin.SwitchMode<br>
 --> current mode name<br>
@@ -79,6 +79,8 @@ DonutzModeSwitcherPlugin.SwitchAllModes<br>
 ![grafik](https://github.com/user-attachments/assets/7fa2f31a-aa6d-44c9-a015-56387a02077d)
 
 ![grafik](https://github.com/user-attachments/assets/18f1f40f-bde6-4887-ae36-b475eb855647)
+
+</details>
 
 <br>Discord: https://discord.gg/KuSsEYgB3k
 <br>Buy me a coffee if you want at [Paypal](https://paypal.me/donutz75?country.x=DE&locale.x=de_DE).
