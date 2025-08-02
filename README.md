@@ -40,9 +40,24 @@ Legacy mode is still there for backwards compatibility.<br>
 --> list of all modes<br><br>
 ---> $prop("DonutzModeSwitcherPlugin.SwitchAllModes")[1].Name = name of Mode 1<br><br><br>
 <img width="1127" height="761" alt="grafik" src="https://github.com/user-attachments/assets/cc3f71be-b1a2-4bee-a452-6731e4fd09d2" />
+<br><br>
+### Role name convention / exclusive mode
+A "§" Symbol at the end of the role name means "exclusive mode". You only need it if more than one mode switch shall control the behavior of the same button.
+If you do not set the §, then the role is working in "normal mode". Which means it does not matter which switch has been used as last. This mode will be triggered. 
+If the role ends with this § symbol, then this role is working in "exclusive mode". Only if the assigned mode switch has been the last one used, then this role will be triggered.
+This is only important if you want to assign the very same buttons to different mode switches. With "normal mode" the click on a button then would trigger multiple roles which might not be what you want.
+
+"Normal mode" scenario:<br>
+<img width="764" height="435" alt="grafik" src="https://github.com/user-attachments/assets/e8947c53-e94f-4e39-b141-ed23fbab192e" /><br>
+-> strictly separated buttons for each mode switch.
+
+"Exclusive mode" scenario:<br>
+<img width="789" height="457" alt="grafik" src="https://github.com/user-attachments/assets/5bc0f782-2703-4ae1-a0c2-ca172e36c2fe" /><br>
+-> same buttons assigned to different mode switches.
 
 
 
+<br><br><br><br>
 ### Legacy stuff for backwards compatibility:<br>
 DonutzModeSwitcherPlugin.SwitchMode<br>
 --> current mode name<br>
