@@ -57,8 +57,9 @@ This is only important if you want to assign the very same buttons to different 
 
 
 
-<br><br><br><br><details>
-### Legacy stuff for backwards compatibility:<br>
+<br><br><br><br>### Legacy stuff for backwards compatibility:<br>
+<details>
+
 DonutzModeSwitcherPlugin.SwitchMode<br>
 --> current mode name<br>
 DonutzModeSwitcherPlugin.SwitchModeID<br>
