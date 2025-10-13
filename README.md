@@ -54,10 +54,50 @@ This is only important if you want to assign the very same buttons to different 
 "Exclusive mode" scenario:<br>
 <img width="789" height="457" alt="grafik" src="https://github.com/user-attachments/assets/5bc0f782-2703-4ae1-a0c2-ca172e36c2fe" /><br>
 -> same buttons assigned to different mode switches.
+<br><br>
+### Custom commands
+There are three types of custom commands available at the moment: IRCHAT, PROPERTY and GROUPED.
+<br><br>
+#### "IRCHAT" 
+sends a text string to the iRacing chat system. You can either send messages to other drivers or send commands to iRacing's pitstop command system.  
+
+Command syntax:
+```IRCHAT:[Text/iRacing chat command]```  
+<br><br>
+#### "PROPERTY"
+creates a new Simhub property. For now only a comma separated list of strings is possible. Later I will add numerical values as well.<br>
+Command syntax:  
+```PROPERTY:[name of the property],[list item1],[list item2],[list item3],[...]```  
+
+If you want to increase and decrease you need to create a second PROPERY command with the same property name but with exact oposite order of the list items.  
+```PROPERTY:[name of the property],[list item3],[list item2],[list item1]```  
+<img width="718" height="119" alt="image" src="https://github.com/user-attachments/assets/d1143205-e612-4f8f-8d62-35bd6ea07945" />  
 
 
+If you want to create a loop then just put the first list item also to the end of the list.  
+```PROPERTY:[name of the property],[list item1],[list item2],[list item3],[list item1]```  
+<img width="727" height="61" alt="image" src="https://github.com/user-attachments/assets/2a5b1d11-c227-464e-812d-72a42145fa1a" />  
+<br><br>
 
-<br><br><br><br>### Legacy stuff for backwards compatibility:<br>
+#### "GROUPED"
+here you can trigger multiple roles/actions simultaneously or like a macro in serial order. You can also send single keypresses or send a text to the active window. Make sure that you game is the active window!  
+
+```GROUPED:ABS+;TC1+```  
+--> triggers the roles "ABS+" and "TC1+" at the same time for 50 milliseconds (that's the default timeout).  
+```GROUPED:ABS+[200];TC1+```  
+--> triggers the roles "ABS+" and "TC1+" at the same time. TC1 will be pressed fo 50ms while ABS+ will be pressed for 200ms.  
+```GROUPED:ABS+[200];(wait:1000);TC1+```  
+--> triggers the roles "ABS+" for 200ms, then waits for 1000ms, then presses TC1+ for 50ms.  
+```GROUPED:(text[200]:bbb)```  
+--> sends 3 times the character "b" with a delay of 200 after each keystroke.  
+  
+modifiers for text input:  
+```$ = CTRL```  
+```^ = SHIFT```  
+```§ = SHIFT+CTRL```  
+
+
+<br><br><br><br><br><br>### Legacy stuff for backwards compatibility:<br>
 <details>
 
 DonutzModeSwitcherPlugin.SwitchMode<br>
