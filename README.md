@@ -45,7 +45,7 @@ DonutzModeSwitcherPlugin.Switch[ID]ModeID → Current mode ID
 DonutzModeSwitcherPlugin.Switch[ID]Mode → Current mode name
 DonutzModeSwitcherPlugin.Switch[ID]ModeCSV[x] → Access sub-names in mode name (split by ';')
 DonutzModeSwitcherPlugin.SwitchAllModes → List of all defined modes
-DonutzModeSwitcherPlugin.Switch1Action1 → name of the role bound to that switch/action
+DonutzModeSwitcherPlugin.Switch[ID]Action[ID] → name of the role bound to that switch/action
 ```
 
 Example:  
