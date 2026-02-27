@@ -128,4 +128,4 @@ Example:
 ## 💬 Community & Support
 
 📢 **Discord:** [Join the Community](https://discord.gg/KuSsEYgB3k)  
-☕ **Support the project:** [Buy me a coffee](https://paypal.me/donutz75)
+☕ **Support the project:** [Buy me a coffee](https://paypal.me/donutz75)  
